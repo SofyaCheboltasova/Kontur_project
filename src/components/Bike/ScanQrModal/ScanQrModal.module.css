@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bikeImg {
+  width: 448px;
+  margin-right: 32px;
+}
+
+.qr {
+  width: 156px;
+  padding-top: 24px;
+  cursor: pointer;
+}

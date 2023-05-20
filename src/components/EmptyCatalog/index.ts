@@ -1,0 +1,1 @@
+export { EmptyCatalog } from './EmptyCatalog';

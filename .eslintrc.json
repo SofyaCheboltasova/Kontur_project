@@ -1,0 +1,33 @@
+{
+  "root": true,
+  "env": {
+    "browser": true,
+    "node": true
+  },
+  "parser": "@typescript-eslint/parser",
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "plugins": ["@typescript-eslint"],
+  "settings": {
+    "react": {
+      "version": "17.0"
+    }
+  },
+  "ignorePatterns": ["**/types/", "**/node_modules/", "**/dist/", "**/lib/"],
+  "rules": {
+    "@typescript-eslint/explicit-module-boundary-types": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "react/prop-types": "off",
+    "react/jsx-boolean-value": "error",
+    "react/display-name": "off",
+    "react/no-unescaped-entities": "off",
+    "no-alert": "error",
+    "no-console": "error",
+    "property-no-vendor-prefix": "off"
+  }
+}

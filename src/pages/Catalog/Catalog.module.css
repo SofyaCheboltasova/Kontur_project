@@ -1,0 +1,29 @@
+.catalogWrapper {
+  position: relative;
+  min-height: calc(100vh - 155px);
+  box-sizing: border-box;
+  padding-bottom: 120px;
+}
+
+.catalogDots {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 281px);
+  row-gap: 44px;
+  column-gap: 24px;
+  margin-top: 32px;
+  margin-bottom: 52px;
+}
+
+.catalogLines {
+  margin-top: 32px;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

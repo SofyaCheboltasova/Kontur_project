@@ -1,0 +1,24 @@
+@keyframes color-change {
+  0% {
+    color: blue;
+  }
+
+  50% {
+    color: red;
+  }
+
+  100% {
+    color: blue;
+  }
+}
+
+.loader {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-weight: 600;
+  animation: color-change 3s infinite;
+  padding-bottom: 10%;
+}

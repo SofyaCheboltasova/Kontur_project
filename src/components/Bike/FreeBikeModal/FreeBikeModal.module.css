@@ -1,0 +1,55 @@
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.content img {
+  width: 448px;
+  margin-right: 32px;
+}
+
+.price,
+.point span {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 28px;
+}
+
+.info {
+  width: 184px;
+  display: flex;
+  flex-direction: column;
+}
+
+.colors {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  margin-bottom: 17px;
+  column-gap: 25px;
+}
+
+.price {
+  margin-bottom: 17px;
+}
+
+.removeColors {
+  display: none;
+}
+
+.point {
+  display: flex;
+  flex-direction: column;
+}
+
+.point span {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 16px;
+  margin-top: 56px;
+}
+
+.point img {
+  width: 448px;
+}

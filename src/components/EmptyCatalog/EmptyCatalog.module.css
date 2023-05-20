@@ -1,0 +1,12 @@
+.emptyWrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100vh - 285px);
+  justify-content: center;
+  align-items: center;
+}
+
+.emptyWrapper span {
+  color: var(--colorTextSecondary);
+  margin-top: 8px;
+}

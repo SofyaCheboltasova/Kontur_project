@@ -1,0 +1,29 @@
+.content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.bikeImg {
+  width: 448px;
+  margin-right: 32px;
+}
+
+.rentTime {
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+
+.button {
+  margin-top: 24px;
+  display: grid;
+  grid-template-columns: 163px 43px;
+  column-gap: 17px;
+  width: 218px;
+  align-items: center;
+}
+
+.price {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+}

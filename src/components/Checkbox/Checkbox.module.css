@@ -1,0 +1,64 @@
+input[type='radio'] {
+  display: none;
+}
+
+.red {
+  color: var(--redLabel);
+}
+
+.blue {
+  color: var(--blueLabel);
+}
+
+.radioSmall {
+  width: 36px;
+  display: flex;
+  column-gap: 4px;
+  align-items: center;
+}
+
+.radioSmall div {
+  height: 16px;
+}
+
+.radioSmall label {
+  border: 7px solid;
+  border-radius: 50%;
+  display: inline-block;
+  margin-bottom: 1px;
+}
+
+.radioBig label {
+  border: 9px solid;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 1px;
+}
+
+.inputSmall:checked + label {
+  margin: 0;
+  width: 16px;
+  height: 16px;
+  border: 4px solid;
+  background: var(--colorBgLight);
+  display: inline-block;
+}
+
+.radioBig {
+  width: 47px;
+  display: flex;
+  column-gap: 9px;
+}
+
+.radioBig div {
+  height: 20px;
+}
+
+.inputBig:checked + label {
+  margin-top: 0;
+  width: 20px;
+  height: 20px;
+  border: 5px solid;
+  background: var(--colorBgLight);
+  display: inline-block;
+}

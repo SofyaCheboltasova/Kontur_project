@@ -1,0 +1,1 @@
+export { RentedModal } from './RentedModal';

@@ -1,0 +1,55 @@
+.settingWrapper {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 176px 296px 96px;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.openedSetting {
+  display: none;
+}
+
+.settingCvvAndDate {
+  grid-template-columns: 176px 142px;
+}
+
+.settingButton {
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  color: var(--colorTextSecondary);
+  text-align: left;
+  padding: 0;
+}
+
+.settingButton:hover,
+.settingButton:focus {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.line {
+  width: 568px;
+  height: 1px;
+  background-color: var(--colorBorder);
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.changeButton {
+  margin: 9px 0 16px 176px;
+}
+
+.hint {
+  margin: -3px 0 9px 176px;
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--colorTextSecondary);
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  column-gap: 4px;
+}

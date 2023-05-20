@@ -1,0 +1,60 @@
+.app {
+  --pad: calc(var(--m) * 12);
+
+  min-height: 100vh;
+  min-width: 1280px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: #fff;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  padding: calc(var(--m) * 4) var(--pad) calc(var(--m) * 3);
+  background-color: #fff;
+  box-shadow: 0 0 calc(var(--m) * 2) rgb(0 0 0 / 10%);
+  z-index: 101;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  max-width: calc(1900px - calc(var(--pad) * 2));
+  margin: 0 auto;
+}
+
+.headerButtons {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+
+.headerButtons > * {
+  margin-left: var(--m);
+}
+
+.main {
+  padding: calc(var(--m) * 2) var(--pad) calc(var(--m) * 5);
+}
+
+.books {
+  color: var(--colorMain);
+  margin-right: calc(var(--m) * 6);
+}
+
+.login {
+  display: flex;
+  align-items: center;
+}
+
+.separator {
+  margin: 4px 8px;
+  height: 1px;
+  border: none;
+  background-color: var(--colorBorder);
+}
+
+.earthSvg path {
+  fill: #366af3;
+}

@@ -1,0 +1,59 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #fff;
+  background-color: var(--colorLink);
+  padding: calc(var(--m) * 1) calc(var(--m) * 2);
+  border: 2px solid var(--colorLink);
+  border-radius: calc(var(--m) * 4);
+  cursor: pointer;
+}
+
+.light {
+  color: var(--colorLink);
+  background-color: #fff;
+}
+
+.wide {
+  width: 100%;
+  text-align: center;
+}
+
+.large {
+  font-size: 1.125rem;
+  padding: calc(var(--m) * 1.5) calc(var(--m) * 2);
+}
+
+.thin {
+  height: 40px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+:is(:hover, :focus) .button {
+  text-decoration: none;
+}
+
+.button:disabled,
+.disabled {
+  cursor: default;
+  background-color: var(--colorBgLight);
+  border-color: var(--colorBgLight);
+  color: var(--colorTextSecondary);
+}
+
+.link {
+  color: var(--colorLink);
+  background: none;
+  padding: 0;
+  border: none;
+  border-radius: none;
+  font-size: 1.125rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+}

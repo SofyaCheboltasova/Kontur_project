@@ -1,0 +1,72 @@
+.tabs {
+  display: flex;
+}
+
+.tabsLink {
+  padding: calc(var(--m) * 1) 0;
+  color: var(--colorMain);
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+.tabsLink + .tabsLink {
+  margin-left: calc(var(--m) * 3);
+}
+
+:is(:hover, :focus) .tabsLink {
+  text-decoration: none;
+}
+
+.tabsLink:hover {
+  border-color: rgba(54, 106, 243, 0.25);
+}
+
+.tabsLink.tabsLinkActive {
+  border-color: var(--colorLink);
+}
+
+.tabsWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.tabsLinks,
+.tabsMap {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.tabsMap {
+  width: 125px;
+  column-gap: 8px;
+}
+
+.tabsMap,
+:is(:hover, :focus) .tabsMap {
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.tabsIcons {
+  width: 28px;
+  height: 28px;
+  padding: 4px;
+  margin-right: 4px;
+  cursor: pointer;
+}
+
+.tabsIcons:hover,
+.tabsIcons:focus,
+.tabsIconsActive,
+.linesActive {
+  background: var(--colorBgLight);
+  border-radius: 8px;
+}
+
+.tabsText {
+  color: var(--colorTextSecondary);
+  margin-left: 16px;
+}
